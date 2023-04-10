@@ -15,7 +15,7 @@ chatbot = ChatBot('My ChatBot')
 trainer = CorpusTrainer(chatbot)
 
 
-trainer.train('nltk.corpus.nps_chat.english.greetings', 'nltk.corpus.nps_chat.english.question', 'nltk.corpus.nps_chat.english.conversations')
+trainer.train('nltk.corpus.nps_chat.english.greetings', 'nltk.corpus.nps_chat.english.question', 'nltk.corpus.nps_chat.english.conversations', chatterbot.corpus.english.math')
 
 
 class ChatBotChat(Chat):
